@@ -4,6 +4,17 @@
 #include "stdafx.h"
 #include "VCppTest.h"
 
+extern "C" {
+#define __STDC_CONSTANT_MACROS
+#include <libavutil/imgutils.h>
+#include <libavcodec/avcodec.h>
+#include <libavformat/avformat.h>
+}
+#pragma comment( lib, "avutil.lib" )
+#pragma comment( lib, "avcodec.lib" )
+#pragma comment( lib, "avformat.lib" )
+#pragma warning(disable : 4996)
+
 #define MAX_LOADSTRING 100
 
 // グローバル変数:
@@ -26,6 +37,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     UNREFERENCED_PARAMETER(lpCmdLine);
 
     // TODO: ここにコードを挿入してください。
+    av_register_all();
 
     // グローバル文字列を初期化する
     LoadStringW(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);
