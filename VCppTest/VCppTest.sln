@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VCppTest", "VCppTest\VCppTest.vcxproj", "{748950EE-E738-4B01-A2C2-5504541E5DE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{748950EE-E738-4B01-A2C2-5504541E5DE3}.Debug|x64.ActiveCfg = Debug|x64
+		{748950EE-E738-4B01-A2C2-5504541E5DE3}.Debug|x64.Build.0 = Debug|x64
+		{748950EE-E738-4B01-A2C2-5504541E5DE3}.Debug|x86.ActiveCfg = Debug|Win32
+		{748950EE-E738-4B01-A2C2-5504541E5DE3}.Debug|x86.Build.0 = Debug|Win32
+		{748950EE-E738-4B01-A2C2-5504541E5DE3}.Release|x64.ActiveCfg = Release|x64
+		{748950EE-E738-4B01-A2C2-5504541E5DE3}.Release|x64.Build.0 = Release|x64
+		{748950EE-E738-4B01-A2C2-5504541E5DE3}.Release|x86.ActiveCfg = Release|Win32
+		{748950EE-E738-4B01-A2C2-5504541E5DE3}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBB5E48E-2DED-4322-82CA-C52F3A476025}
+	EndGlobalSection
+EndGlobal
